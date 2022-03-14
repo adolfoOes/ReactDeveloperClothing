@@ -13,9 +13,7 @@ const CheckOutItem = ({ cartItem, clearItem, addItem, removeItem}) => {
         <div className='checkout-item'>
 
             <div className='image-container'>
-
                 <img alt='item' src={imageUrl} />
-
             </div>
 
             <span className='name'>{name}</span>
